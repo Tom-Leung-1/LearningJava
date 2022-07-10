@@ -29,7 +29,7 @@ public class Review { // your file name must match with the class name if public
         Review review = new Review();
         // to create the inner class object of another class, use the syntax below
         InnerClassOne c1 = review.new InnerClassOne();
-        // you can also create the inner class object if you add static keword into the inner class. It is also called static nested class
+        // you can also create the inner class object if you add static keyword into the inner class. It is also called static nested class
         InnerClassTwo c2 = new InnerClassTwo();
         // you can also create an object of a class by: 
         //  1.  adding another java file into the same directory
