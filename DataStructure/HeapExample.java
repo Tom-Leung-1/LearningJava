@@ -20,6 +20,8 @@ public class HeapExample {
         // b - a < 0 -> a > b -> a first b second
         // b - a > 0 -> a < b -> a second b first
         pq.add(1); pq.add(100); pq.add(10);
+        pq.offer(4);
+        pq.poll();
         System.out.println(pq.peek());
 
         PriorityQueue<Pair> pq2 = new PriorityQueue<>((pair1, pair2) -> pair2.val - pair1.val);

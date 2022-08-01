@@ -12,5 +12,6 @@ public class LinkedListExample {
         System.out.println(l1.size());
         l1.set(2, 100);
         System.out.println(l1.getLast());
+        System.out.println(l1.getFirst());
     }
 }
