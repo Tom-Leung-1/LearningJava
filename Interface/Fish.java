@@ -1,6 +1,6 @@
 public class Fish implements Prey, Predator{ // we can implement multiple interfaces
 
-    // once a class implments a interface, it must define the methods (non static) listed inside the interface.
+    // once a class implments an interface, it must define the methods (non static) listed inside the interface.
     public void hunt() {
         System.out.println("fish is hunting");
     }

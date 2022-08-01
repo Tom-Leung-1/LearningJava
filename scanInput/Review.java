@@ -12,8 +12,6 @@ public class Review {
         System.out.println(food);
         Integer.parseInt("1");
         Integer a = 1;
-        a.toString();
-        String.valueOf(1);
-        Integer.toString(1);
+        a.toString(); String.valueOf(1); Integer.toString(1);
     }
 }
